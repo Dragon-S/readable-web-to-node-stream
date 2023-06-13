@@ -1,6 +1,6 @@
 {
-  "name": "readable-web-to-node-stream",
-  "version": "3.0.2",
+  "name": "@lorne/readable-web-to-node-stream",
+  "version": "3.0.3",
   "description": "Converts a Web-API readable-stream into a Node readable-stream.",
   "main": "lib/index.js",
   "files": [
@@ -39,18 +39,18 @@
     "readable",
     "readablestream"
   ],
-  "repository": "https://github.com/Borewit/readable-web-to-node-stream.git",
+  "repository": "https://github.com/Dragon-S/readable-web-to-node-stream.git",
   "author": {
-    "name": "Borewit",
-    "url": "https://github.com/Borewit"
+    "name": "Dragon-S",
+    "url": "https://github.com/Dragon-S"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/Borewit"
+    "url": "https://github.com/sponsors/Dragon-S"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Borewit/readable-web-to-node-stream/issues"
+    "url": "https://github.com/Dragon-S/readable-web-to-node-stream/issues"
   },
   "dependencies": {
     "process": "^0.11.10",

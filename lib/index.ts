@@ -48,7 +48,12 @@ export class ReadableWebToNodeStream extends Readable {
       this.push(null); // Signal EOF
     } else {
       this.bytesRead += data.value.length;
-      this.push(data.value); // Push new data to the queue
+      const buffer = Buffer.alloc(data.value.byteLength);
+      const view = new Uint8Array(data.value);
+      for (let i = 0; i < buffer.length; ++i) {
+          buffer[i] = view[i];
+      }
+      this.push(buffer); // Push new data to the queue
     }
   }
 

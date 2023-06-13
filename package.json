@@ -1,5 +1,5 @@
 {
-  "name": "@lorne/readable-web-to-node-stream",
+  "name": "web-to-node-readablestream",
   "version": "3.0.3",
   "description": "Converts a Web-API readable-stream into a Node readable-stream.",
   "main": "lib/index.js",
